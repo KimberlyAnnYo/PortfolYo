@@ -76,7 +76,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: auto;
+    width: 100%;
  
   }
   footer h2 {
@@ -96,7 +96,6 @@
   
   /* HERO STYLES START */
   .hero {
-    border: radius 50px;
     display: flex;
     justify-content:right;
     flex-wrap: wrap;
@@ -134,7 +133,9 @@
   }
   /*end styling of about me, work history, projects and contact me*/
   
-
+.Project-grid {
+  columns: 4;
+}
   
   /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
   @media screen and (max-width: 980px) {
