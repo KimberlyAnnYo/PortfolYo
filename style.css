@@ -135,6 +135,8 @@
   
 .Project-grid {
   columns: 4;
+  display: flex;
+  flex-wrap: wrap;
 }
   
   /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
