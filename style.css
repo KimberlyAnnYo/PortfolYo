@@ -134,7 +134,7 @@
   /*end styling of about me, work history, projects and contact me*/
   
 .Project-grid {
-  columns: 4;
+  columns: 3;
   display: flex;
   flex-wrap: wrap;
 }
