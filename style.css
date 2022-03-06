@@ -137,6 +137,8 @@
   columns: 3;
   display: flex;
   flex-wrap: wrap;
+ border-color: #111111;
+ border-style: double;
 }
   
   /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
