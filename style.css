@@ -20,6 +20,7 @@
   
   header {
     padding: 20px 35px;
+    background: linear-gradient(var(--tertiary-color), var(--secondary-color));
     background-color: var(--tertiary-color);
     display: flex;
     justify-content: space-between;
@@ -133,12 +134,17 @@
   }
   /*end styling of about me, work history, projects and contact me*/
   
-.Project-grid {
-  columns: 3;
+.Project-grid1 {
+  columns: 10;
   display: flex;
   flex-wrap: wrap;
  border-color: #111111;
- border-style: double;
+ border-style: groove;
+}
+.Project-grid {
+  columns: 4;
+  display: flex;
+  flex-wrap: wrap;
 }
   
   /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
