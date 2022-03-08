@@ -13,4 +13,4 @@ https://github.com/KimberlyAnnYo
 
  ## Screenshot
 
- ![alt text](desktop.portfolyo.assets.portfolio.png)
+ ![alt text](./assets/profile.jpg)
